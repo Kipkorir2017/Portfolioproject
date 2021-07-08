@@ -57,8 +57,6 @@ a:hover{
 hr.white{
     border: 2px solid white;
     width: 50%;
-    
-
 }
 .header h4{
     text-align: center;
@@ -69,9 +67,44 @@ hr.white{
     margin-bottom: 20px;
     margin-right: 0px;
 }
+.row1{
+    display: inline-flex;
+    padding-left:15rem;
+}
+.row2{
+    display: inline-flex;
+    padding-left:15rem;
+    padding-bottom: 2rem;
+}
+.anitas{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+}
+.favorite{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+    margin-left:2rem;
+}
+.mkulima{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+    margin-top: 2rem;
+}
+.hotel{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+    margin-left:2rem;
+    margin-top: 2rem;
+}
 button{
     width: 100px;
     background-color: gray;
+    float: right;
+    
 }
 .about{
     border: 1px solid gainsboro;
