@@ -1,0 +1,162 @@
+body{
+    background-color:white;
+
+}
+.nav{
+    background-color: #755F5E;
+    border: 2px solid white;
+    height: 100px;
+}
+.name{
+    margin-left: 10px;
+    padding-right: 100px;
+    padding-top: 30px;
+    color: white;
+}
+.nav-menu ul li{
+    display: inline-flex;
+    list-style: none;
+    padding-right: 50px;
+    padding-left: 100px;
+    padding-top: 30px;
+    color: white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color: yellowgreen;
+    text-decoration:none; 
+    cursor:pointer;  
+}
+.b-image img{
+    padding-top: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    
+}
+.b-image h4{
+    color: white;
+    padding-left: 15rem;
+    padding-top: 20px;
+}
+.b-image{
+    background-image: url(../assets/images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    box-sizing: content-box;
+    width: auto;
+    height: 40rem;
+    padding: 0;
+    
+}
+hr.white{
+    border: 2px solid white;
+    width: 50%;
+}
+.header h4{
+    text-align: center;
+}
+.projects{
+    background-color: #755F5E;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+.row1{
+    display: inline-flex;
+    padding-left:15rem;
+}
+.row2{
+    display: inline-flex;
+    padding-left:15rem;
+    padding-bottom: 2rem;
+}
+.anitas{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+}
+.favorite{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+    margin-left:2rem;
+}
+.mkulima{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+    margin-top: 2rem;
+}
+.hotel{
+    border:1px gray solid;
+    background-color: white;
+    width: 20rem;
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+button{
+    width: 100px;
+    background-color: gray;
+    float: right;
+    
+}
+.about{
+    border: 1px solid gainsboro;
+    height: fit-content;
+    width: auto;
+    background-color:white;
+}
+.about h3{
+    text-align: center;
+}
+.about h5{
+    padding-left: 10px;
+}
+.about p{
+    padding-left: 10px;
+}
+.contact{
+    border:2px solid white;
+    box-shadow:white;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #755F5E;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+
+
+}
+.contact input[type=textarea] {
+    padding-left:20px
+}
+footer {
+    background-color: #B69A9A;
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer .symbols{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding-right:0px ;
+}
+.foo p{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    
+}
+ 

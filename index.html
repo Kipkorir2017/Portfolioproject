@@ -4,46 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
     <title>portfolio</title>
 </head>
 <body>
+<div class="container">
     <!-- navigation bar -->
+<div class="nav">
+    <div class="name">
     <h5>Benjamin Kipkorir</h5>
-    <div>
-        <ul>
-            <li>PORTFOLIO</li>
-            <li>ABOUT</li>
-            <li>CONTACT</li>
-        </ul>
     </div>
+    <div class="nav-menu">
+        <ul>
+            <li >
+              <a href="#index.html">PORTFOLIO</a>
+            </li>
+            <li>
+              <a  href="#My Story">ABOUT</a>
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
+    </div>
+</div>
     <!-- background image -->
-    <div>
-        <h4>I'm Tonui Kipkorir Benjamin</h4>
-        <hr>
+    <div class="b-image">
+        <img src="/assets/images/benja3.png" alt="" width="150px">
+        <h4>I'm Tonui Kipkorir Benjamin <br> Software Developer</h4>
+        <hr class="white">
     </div>
     <!-- projects part -->
-    <div>
+    <div class="projects">
         <!-- main container -->
-        <div></div>
+        <div class="header"><h4>PROJECTS</h4></div>
+        <div class="row1">
         <!-- projects -->
-        <div></div>
-        <div></div>
+            <div class="anitas">
+                <h5>Anitas Kitchen</h5>
+                <p>This a Landing page of Anitas kitchen project, </p>
+                <button>view</button>
+            </div>
+            <div class="favorite"> 
+                <h5>Favorite Band</h5>
+                <p>The Landing page of Favorite band project, <br>this website will give description of <br> each member from the former yamoto band.</p>
+                <button>view</button>
+            </div>
+        </div>   
         <!-- main container -->
-        <div></div>
+        <div class="row2">
         <!-- projects -->
-        <div></div>
-        <div></div>
+            <div class="mkulima">
+                <h5>Mkulima Market</h5>
+                <p>Mkulima Market project, <br>this project will help farmers get a platform <br> they use to get a direct market to sellers</p>
+                <button>view</button>
+                </div>
+            <div class="hotel">
+                <h5>Hotel project</h5>
+                <p>This an hotel project, it has a landing page of an hotel project </p>
+                <button>view</button>
+            </div>
+        </div>
     </div>
     <!-- about section -->
-    <div>
+    <div class="about">
         <h3>My Story</h3>
-        <p>I'm Benjamin Kipkorir Tonui, currently student at Moringa School specializing on Full Stack Software Development.</p>
-        <p>You can have a look to some of my projects on my Github account.</p>
+        <h5>Educational Background</h5>
+        <p>I'm Benjamin Kipkorir Tonui, currently student at Moringa School specializing in Full Stack Software Development and as well a UI/UX Designer.</p>
+        <p>Have been having a passion of becoming a Full stack developer and this passion has really given me desire to learn coding, have a look at some of my projects on my Github account.</p>
         <p>Graduated from Karatina University with degree in BSc Computer Science with Second class honors Upper Division</p>
         <h5>Working Experience</h5>
         <p>From 6th June to 31st August 2017, Kenya Electricity Generating Company</p>
     </div>
+    <!-- contact section -->
+  <div class="contact">
+      Email:<input type="text" name=" Enter your email" id="" placeholder="Email"> <br><br>
+      Tel: &#8287;&#8287; <input type=" number" name="phone number" id="" placeholder="Enter your phone number">
+      <br><br>
+      <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+      <input type="submit" value="Submit">
+  </div>
+  <!-- footer section -->
+  <div class="foo">
+    <footer>
+        <h5>Email:pkobenj41@gmail.com</h5>
+        <h5>Tel: +254710383269</h5>
+    <div class="symbols">
+        <a href="https://github.com/Kipkorir2017"><img src="/assets/images/github.png" alt="Github" width="30px" height="30px"></a>
+        &#8287;
+        <a href="https://web.facebook.com/"><img src="/assets/images/fb.jpg" alt="facebook" width="30px" height="30px"></a>
+        &#8287;
+        <a href="https://www.linkedin.com/in/benjamin-kipkorir-9507b5192/"><img src="/assets/images/linked.jpg" alt="linkedin" width="30px" height="30px"></a>
+        &#8287;
+        <a href="https://twitter.com/kipkorirbenjam1"><img src="/assets/images/tw.png" alt="twitter" width="30px" height="30px"></a>
+    </div>
+    <p>&copy; Copyright 2021 By Benjamin Kipkorir</p>
+    </footer>
+</div>
+</div>
 </body>
 </html>
