@@ -65,9 +65,9 @@ hr.white{
 }
 .projects{
     background-color: #755F5E;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 .about{
     border: 1px solid gainsboro;
@@ -96,8 +96,8 @@ hr.white{
 
 
 }
-.contact input=[textarea]{
-    padding-left:10px
+.contact input[type=textarea] {
+    padding-left:20px
 }
 footer {
     background-color: #B69A9A;
