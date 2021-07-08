@@ -69,6 +69,10 @@ hr.white{
     margin-bottom: 20px;
     margin-right: 0px;
 }
+button{
+    width: 100px;
+    background-color: gray;
+}
 .about{
     border: 1px solid gainsboro;
     height: fit-content;
