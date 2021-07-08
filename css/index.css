@@ -1,0 +1,12 @@
+body{
+    background-color: white;
+
+}
+.b-image{
+    background-image: url('../assets/images/background.jpeg');
+}
+.white{
+    width: 50px;
+    color: #ffffff;
+
+}
