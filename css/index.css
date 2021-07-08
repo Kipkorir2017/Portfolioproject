@@ -33,6 +33,12 @@ a:hover{
     text-decoration:none; 
     cursor:pointer;  
 }
+.b-image img{
+    padding-top: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    
+}
 .b-image h4{
     color: white;
     padding-left: 15rem;
@@ -51,10 +57,69 @@ a:hover{
 hr.white{
     border: 2px solid white;
     width: 50%;
-    padding-right: 60px;
-    padding-left: 60px;
     
 
 }
+.header h4{
+    text-align: center;
+}
+.projects{
+    background-color: #755F5E;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.about{
+    border: 1px solid gainsboro;
+    height: fit-content;
+    width: auto;
+    background-color:white;
+}
+.about h3{
+    text-align: center;
+}
+.about h5{
+    padding-left: 10px;
+}
+.about p{
+    padding-left: 10px;
+}
+.contact{
+    border:2px solid white;
+    box-shadow:white;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #755F5E;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
 
+
+}
+.contact input=[textarea]{
+    padding-left:10px
+}
+footer {
+    background-color: #B69A9A;
+    box-sizing: border-box;
+    color: white;
+    padding: 20px;
+    overflow: hidden;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+footer .symbols{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    padding-right:0px ;
+}
+.foo p{
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    
+}
  
