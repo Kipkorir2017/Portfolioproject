@@ -45,7 +45,7 @@ a:hover{
     padding-top: 20px;
 }
 .b-image{
-    background-image: url(../assets/images/background.jpeg);
+    background-image: url(/assets/images/background.png);
     background-repeat: no-repeat;
     background-size: auto;
     box-sizing: content-box;
@@ -159,4 +159,3 @@ footer .symbols{
     padding-top: 10px;
     
 }
- 
