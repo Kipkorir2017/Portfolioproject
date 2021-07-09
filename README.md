@@ -2,9 +2,27 @@
 This is a landing page of my portfolio project , it has active links to show you some of the projects that have done so far.
 ## Author
 By Benjamin Kipkorir Tonui
-#Description
+# Description
 This project has a navigation bar with 4 items that is my name,portfolio which is home, about and contact section, in tha about section you can get to see my story that is education background, work experience, etc.
 contact section will give you a  way so that you can reach me, entering your email, phone number, and a message.
+[a link] (https://kipkorir2017.github.io/Portfolioproject/)
+## screenshots of our website
+home page
+welcome to my portfolio,navigate on my website
+<image src="./assets/images/navigation.png" alt="navigation">
+<p>&nbsp;</p>
+projects
+Have a look at some of my projects
+<img src="./assets/images/project.png" alt="projects">
+<p>&nbsp;</p>
+about section
+know more about me
+<img src="./assets/images/about.png" alt="about">
+<p>&nbsp;</p>
+contact section and footer
+Get to contact section and leave a message
+<img src="./assets/contact.png" alt="contact page">
+
 ## Setup/Installation Requirements
 git 
 browser
