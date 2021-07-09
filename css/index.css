@@ -55,7 +55,7 @@ a:hover{
     padding-top: 20px;
 }
 .b-image{
-    background-image: url(../assets/images/background.PNG);
+    background: url(../assets/images/background.PNG);
     background-repeat: no-repeat;
     background-size: auto;
     box-sizing: content-box;
