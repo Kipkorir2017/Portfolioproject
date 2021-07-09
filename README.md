@@ -5,6 +5,7 @@ By Benjamin Kipkorir Tonui
 # Description
 This project has a navigation bar with 4 items that is my name,portfolio which is home, about and contact section, in tha about section you can get to see my story that is education background, work experience, etc.
 contact section will give you a  way so that you can reach me, entering your email, phone number, and a message.
+# active link 
 [a link] (https://kipkorir2017.github.io/Portfolioproject/)
 ## screenshots of our website
 home page
