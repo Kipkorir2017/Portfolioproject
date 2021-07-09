@@ -21,7 +21,7 @@ know more about me
 <p>&nbsp;</p>
 contact section and footer
 Get to contact section and leave a message
-<img src="./assets/contact.png" alt="contact page">
+<img src="./assets/images/contact.png" alt="contact page">
 
 ## Setup/Installation Requirements
 git 
