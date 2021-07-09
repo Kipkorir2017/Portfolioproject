@@ -79,17 +79,18 @@ hr.white{
 }
 .row1{
     display: inline-flex;
-    padding-left:15rem;
+    padding-left:13rem;
 }
 .row2{
     display: inline-flex;
-    padding-left:15rem;
+    padding-left:13rem;
     padding-bottom: 2rem;
 }
 .anitas{
     border:1px gray solid;
     background-color: white;
     width: 20rem;
+
 }
 .favorite{
     border:1px gray solid;
