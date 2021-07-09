@@ -2,10 +2,19 @@ body{
     background-color:white;
 
 }
+/* .head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+} */
 .nav{
     background-color: #755F5E;
     border: 2px solid white;
     height: 100px;
+    
+    
+    
 }
 .name{
     margin-left: 10px;
@@ -20,6 +29,7 @@ body{
     padding-left: 100px;
     padding-top: 30px;
     color: white;
+    
 }
 a{
     color:white;
@@ -45,7 +55,7 @@ a:hover{
     padding-top: 20px;
 }
 .b-image{
-    background-image: url(../assets/images/background.jpeg);
+    background: url(../assets/images/background.PNG);
     background-repeat: no-repeat;
     background-size: auto;
     box-sizing: content-box;
@@ -104,6 +114,7 @@ button{
     width: 100px;
     background-color: gray;
     float: right;
+    border-radius: 10px 10px;
     
 }
 .about{
@@ -159,4 +170,12 @@ footer .symbols{
     padding-top: 10px;
     
 }
- 
+button:hover{
+    background-color: blue;
+}
+@media screen and (max-width: 500px) {
+    .nav ul li {
+      float: none;
+      display: block;
+    }
+  }
