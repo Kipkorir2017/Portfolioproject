@@ -12,6 +12,10 @@ body{
     background-color: #755F5E;
     border: 2px solid white;
     height: 100px;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     
     
     
@@ -44,9 +48,9 @@ a:hover{
     cursor:pointer;  
 }
 .b-image img{
-    padding-top: 20px;
+    Margin-top: 150px;
     margin-left: 40px;
-    border-radius: 50%;
+    border-radius: 35%;
     
 }
 .b-image h4{
@@ -60,7 +64,7 @@ a:hover{
     background-size: auto;
     box-sizing: content-box;
     width: auto;
-    height: 40rem;
+    height: 34rem;
     padding: 0;
     
 }
@@ -90,6 +94,7 @@ hr.white{
     border:1px gray solid;
     background-color: white;
     width: 20rem;
+    background: url(/assets/images/logo.png);
 
 }
 .favorite{
@@ -122,7 +127,7 @@ button{
     border: 1px solid gainsboro;
     height: fit-content;
     width: auto;
-    background-color:white;
+    background-color: #B69A9A;
 }
 .about h3{
     text-align: center;

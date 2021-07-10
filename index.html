@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="/assets/js/form.js"></script>
     <title>portfolio</title>
 </head>
 <body>
-<div class="container">
+<!-- <div class="container"> -->
     <!-- navigation bar -->
 <div class="nav">
     <div class="name">
@@ -43,7 +44,7 @@
         <!-- projects -->
             <div class="anitas">
                 <h5> <span style="color: orange;">Anitas</span> Kitchen</h5>
-                <p>This a Landing page of Anitas kitchen project, <br> this website does not have a navigation bar, <br> but it has some images that when you can click to make an order  </p>
+                <p>This a Landing page of Anitas kitchen project, <br> this website does not have a navigation bar, <br> but it has some images that you can click to make an order  </p>
                 <a href="kipkorir2017.github.io/anitas-kitchen/"><button>view</button></a>
             </div>
             <div class="favorite"> 
@@ -62,7 +63,7 @@
                 </div>
             <div class="hotel">
                 <h5><span  style="color: brown;">Restaurant </span>project</h5>
-                <p>This an Restaurant project, it has a landing page of an Restaurant,<br> you can find this hotel has rooms to sleep, parking ,swimming and playing ground <br> so as a client you can make an order of the meal and also book a room </p>
+                <p>This is a Restaurant project, it has a landing page  ,<br> you can find this hotel has rooms to sleep, parking ,swimming and playing ground <br> so as a client you can make an order of the meal and also book a room </p>
                <a href="https://kipkorir2017.github.io/Restaurant/"></a> <button>view</button></a>
             </div>
         </div>
@@ -81,11 +82,13 @@
     </div>
     <!-- contact section -->
   <div class="contact">
-      Email:<input type="text" name=" Enter your email" id="" placeholder="Email"> <br><br>
-      Tel: &#8287;&#8287; <input type=" number" name="phone number" id="" placeholder="Enter your phone number">
+      <form action="" name="myForm" >
+      Email:<input type="text" name=" email" id="" placeholder="Email address"> <br><br>
+      Tel: &#8287;&#8287; <input type=" number" name="phonenumber" id="" placeholder="Enter your phone number">
       <br><br>
-      <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
-      <input type="submit" value="Submit">
+      <textarea name="" id="message" cols="30" rows="10" placeholder="message"></textarea>
+      <input type="submit" name="btn" value="Submit">
+    </form>
   </div>
   <!-- footer section -->
   <div class="foo">
@@ -104,6 +107,6 @@
     <p>&copy; Copyright 2021 By Benjamin Kipkorir</p>
     </footer>
 </div>
-</div>
+<!-- </div> -->
 </body>
 </html>
