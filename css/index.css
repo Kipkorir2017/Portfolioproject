@@ -1,5 +1,6 @@
-body{
+html{
     background-color:white;
+   
 
 }
 /* .head{
@@ -83,38 +84,45 @@ hr.white{
 }
 .row1{
     display: inline-flex;
-    padding-left:13rem;
+    padding-left:18rem;
+    padding-top: 2rem;
 }
 .row2{
     display: inline-flex;
-    padding-left:13rem;
+    padding-left:18rem;
     padding-bottom: 2rem;
 }
 .anitas{
     border:1px gray solid;
     background-color: white;
     width: 20rem;
-    background: url(/assets/images/logo.png);
+    background-color: #B69A9A;
+    /* background: url(/assets/images/logo.png); */
 
 }
 .favorite{
     border:1px gray solid;
     background-color: white;
     width: 20rem;
-    margin-left:2rem;
+    margin-left:5rem;
+    background-color: #B69A9A;
+    /* background:url(/assets/images/yaomoto.png); */
 }
 .mkulima{
     border:1px gray solid;
     background-color: white;
     width: 20rem;
     margin-top: 2rem;
+    background-color: #B69A9A;
+    /* background: url(/assets/images/mkulima.png); */
 }
 .hotel{
     border:1px gray solid;
     background-color: white;
     width: 20rem;
-    margin-left:2rem;
+    margin-left:5rem;
     margin-top: 2rem;
+    background-color: #B69A9A;
 }
 button{
     width: 100px;
