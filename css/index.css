@@ -1,6 +1,5 @@
 html{
     background-color:white;
-   
 
 }
 /* .head{
@@ -87,34 +86,13 @@ hr.white{
     padding-left:18rem;
     padding-top: 2rem;
 }
-.row2{
-    display: inline-flex;
-    padding-left:18rem;
-    padding-bottom: 2rem;
+.projectz{
+    background-color: #755F5E;
 }
-.anitas{
-    border:1px gray solid;
-    background-color: white;
-    width: 20rem;
-    background-color: #B69A9A;
-    /* background: url(/assets/images/logo.png); */
-
-}
-.favorite{
-    border:1px gray solid;
-    background-color: white;
-    width: 20rem;
-    margin-left:5rem;
-    background-color: #B69A9A;
-    /* background:url(/assets/images/yaomoto.png); */
-}
-.mkulima{
-    border:1px gray solid;
-    background-color: white;
-    width: 20rem;
-    margin-top: 2rem;
-    background-color: #B69A9A;
-    /* background: url(/assets/images/mkulima.png); */
+.col-5{
+    border: 2px solid black;
+    margin-bottom:10px;
+    background-color: #B69A9A;  
 }
 .hotel{
     border:1px gray solid;
@@ -187,9 +165,39 @@ footer .symbols{
 button:hover{
     background-color: blue;
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width:500px) {
+    .nav{
+        width: 50%;
+    }
+    
+}
+@media screen and (min-width: 500px) {
     .nav ul li {
       float: none;
       display: block;
+      width: auto;
     }
   }
+  @media screen and (max-width: 1000px) {
+    .nav ul li {
+      display: block;
+      color: red;
+      width:auto;
+    }
+  }
+  @media screen and (min-width:500px){
+    .b-image{
+        width: auto;
+    }
+  }
+  @media screen and(min-width:500px){
+      .projects{
+          width:auto;
+          display:block;
+      }
+  }
+  @media screen and(min-width:500px){
+      .row1{
+          width:auto;
+      }
+  } */
