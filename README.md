@@ -9,18 +9,22 @@ contact section will give you a  way so that you can reach me, entering your ema
 [a link] (https://kipkorir2017.github.io/Portfolioproject/)
 ## screenshots of our website
 home page
+<p>&nbsp;</p>
 welcome to my portfolio,navigate on my website
 <image src="./assets/images/navigation.png" alt="navigation">
 <p>&nbsp;</p>
 projects
+<p>&nbsp;</p>
 Have a look at some of my projects
 <img src="./assets/images/project.png" alt="projects">
 <p>&nbsp;</p>
 about section
+<p>&nbsp;</p>
 know more about me
 <img src="./assets/images/about.png" alt="about">
 <p>&nbsp;</p>
 contact section and footer
+<p>&nbsp;</p>
 Get to contact section and leave a message
 <img src="./assets/images/contact.png" alt="contact page">
 
