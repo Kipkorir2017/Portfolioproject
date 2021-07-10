@@ -11,22 +11,22 @@ contact section will give you a  way so that you can reach me, entering your ema
 home page
 <p>&nbsp;</p>
 welcome to my portfolio,navigate on my website
-<image src="" alt="navigation">
+<image src="assets/images/navigationbar.png" alt="navigation">
 <p>&nbsp;</p>
 projects
 <p>&nbsp;</p>
 Have a look at some of my projects
-<img src="" alt="projects">
+<img src="assets/images/projects.png" alt="projects">
 <p>&nbsp;</p>
 about section
 <p>&nbsp;</p>
 know more about me
-<img src="" alt="about">
+<img src="assets/images/about.png" alt="about">
 <p>&nbsp;</p>
 contact section and footer
 <p>&nbsp;</p>
 Get to contact section and leave a message
-<img src="" alt="contact page">
+<img src="assets/images/contactsec.png" alt="contact page">
 
 ## Setup/Installation Requirements
 git 
