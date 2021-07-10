@@ -81,11 +81,6 @@ hr.white{
     margin-bottom: 0px;
     margin-right: 0px;
 }
-.row1{
-    display: inline-flex;
-    padding-left:18rem;
-    padding-top: 2rem;
-}
 .projectz{
     background-color: #755F5E;
 }
@@ -105,7 +100,7 @@ hr.white{
 button{
     width: 100px;
     background-color: gray;
-    float: right;
+    /* float: right; */
     border-radius: 10px 10px;
     
 }
@@ -165,7 +160,8 @@ footer .symbols{
 button:hover{
     background-color: blue;
 }
-/* @media screen and (max-width:500px) {
+/*
+ @media screen and (max-width:500px) {
     .nav{
         width: 50%;
     }
