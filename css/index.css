@@ -164,7 +164,6 @@ footer .symbols{
 button:hover{
     background-color: blue;
 }
-
 @media screen and (max-width: 500px) {
     .nav ul li {
       color: red;
