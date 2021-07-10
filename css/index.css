@@ -1,5 +1,6 @@
-html{
-    background-color:white;
+*{
+   font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 /* .head{
@@ -128,11 +129,14 @@ button{
     padding-top: 40px;
     padding-bottom: 20px;
     padding-right: 40px;
+    padding-left:20px ;
 
 
 }
-.contact input[type=textarea] {
-    padding-left:20px
+/* .contact input[type=textarea] {
+    padding-left:20px */
+#btn{
+    width: 100px;
 }
 footer {
     background-color: #B69A9A;
@@ -160,40 +164,19 @@ footer .symbols{
 button:hover{
     background-color: blue;
 }
-/*
- @media screen and (max-width:500px) {
-    .nav{
-        width: 50%;
-    }
-    
-}
-@media screen and (min-width: 500px) {
+
+@media screen and (max-width: 500px) {
     .nav ul li {
-      float: none;
+      color: red;
       display: block;
-      width: auto;
+     
     }
-  }
+}
   @media screen and (max-width: 1000px) {
-    .nav ul li {
+    .nav {
       display: block;
       color: red;
       width:auto;
     }
   }
-  @media screen and (min-width:500px){
-    .b-image{
-        width: auto;
-    }
-  }
-  @media screen and(min-width:500px){
-      .projects{
-          width:auto;
-          display:block;
-      }
-  }
-  @media screen and(min-width:500px){
-      .row1{
-          width:auto;
-      }
-  } */
+ 
