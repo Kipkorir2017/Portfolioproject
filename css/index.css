@@ -1,5 +1,6 @@
-html{
-    background-color:white;
+*{
+    /* background-color:white; */
+    font-family: 'Josefin Sans', sans-serif;
 
 }
 /* .head{
@@ -160,40 +161,19 @@ footer .symbols{
 button:hover{
     background-color: blue;
 }
-/*
- @media screen and (max-width:500px) {
-    .nav{
-        width: 50%;
-    }
-    
-}
-@media screen and (min-width: 500px) {
+
+@media screen and (max-width: 500px) {
     .nav ul li {
-      float: none;
+      color: red;
       display: block;
-      width: auto;
+     
     }
-  }
+}
   @media screen and (max-width: 1000px) {
-    .nav ul li {
+    .nav {
       display: block;
       color: red;
       width:auto;
     }
   }
-  @media screen and (min-width:500px){
-    .b-image{
-        width: auto;
-    }
-  }
-  @media screen and(min-width:500px){
-      .projects{
-          width:auto;
-          display:block;
-      }
-  }
-  @media screen and(min-width:500px){
-      .row1{
-          width:auto;
-      }
-  } */
+ 
