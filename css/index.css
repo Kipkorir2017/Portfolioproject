@@ -110,6 +110,7 @@ button{
     height: fit-content;
     width: auto;
     background-color: #B69A9A;
+    padding: 10px;
 }
 .about h3{
     text-align: center;
@@ -165,9 +166,9 @@ button:hover{
     background-color: blue;
 }
 @media screen and (max-width: 500px) {
-    .nav ul li {
-      color: black;
-      display: block;
+    .nav{
+    display: block;
+    height: 14rem;
      
     }
 }
