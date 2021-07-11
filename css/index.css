@@ -166,15 +166,27 @@ button:hover{
 }
 @media screen and (max-width: 500px) {
     .nav ul li {
-      color: red;
+      color: black;
       display: block;
      
     }
 }
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 800px) {
     .nav {
       display: block;
-      color: red;
+      width:auto;
+      height: 14rem;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    html {
+      display: block;
+      width:auto;
+    }
+  }
+  @media screen and (min-width: 500px) {
+    .b-image {
+      height: 130%;
       width:auto;
     }
   }
