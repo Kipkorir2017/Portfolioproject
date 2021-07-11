@@ -171,13 +171,6 @@ button:hover{
      
     }
 }
-  @media screen and (max-width: 800px) {
-    .nav {
-      display: block;
-      width:auto;
-      height: 14rem;
-    }
-  }
   @media screen and (min-width: 500px) {
     html {
       display: block;
@@ -189,4 +182,20 @@ button:hover{
       width:auto;
     }
   }
+  @media screen and (max-width: 640px) {
+    .nav{
+      display: flex;
+      flex-direction: row;
+      height: 11rem;
+      width: auto
+    }
+  } 
+  @media screen and (max-width: 800px) {
+    .nav{
+      display: flex;
+      flex-direction: row;
+      height: 8rem;
+      width: auto
+    }
+  } 
  
